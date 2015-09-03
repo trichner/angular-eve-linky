@@ -7,13 +7,6 @@
  *  Author: Thomas Richner - mail@trichner.ch
  */
 
-/* Examples:
- * <url=http://tools.eveuniversity.org/apply.php>this link</url>
- * <url=joinChannel:100>E-Uni</url>
- * <url=joinChannel:-9518631>Q&A.EUNI</url>
- * <url=showinfo:16159//937872513>Ivy League</url>
- * <url=showinfo:1377//698922015>Thomion</url>
- */
 angular.module('trichner.angular-eve-linky', [])
     .factory('EveLinky', function () {
         var TEMPLATES = {

@@ -1,10 +1,7 @@
 describe('EveLinky', function () {
-    // Load the module with MainController
     beforeEach(module('trichner.angular-eve-linky'));
 
     var service;
-    // inject the $controller and $rootScope services
-    // in the beforeEach block
     beforeEach(inject(function (_EveLinky_) {
         service = _EveLinky_;
     }));
