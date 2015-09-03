@@ -1,0 +1,31 @@
+{
+  "name": "angular-eve-linky",
+  "version": "0.1.0",
+  "authors": [
+    "Thomas Richner <mail@trichner.ch>"
+  ],
+  "description": "Angular service to create Eve Online urls",
+  "main": "eveLinky.js",
+  "keywords": [
+    "eveonline",
+    "angular",
+    "url",
+    "eve",
+    "linky"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    ".idea",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.5"
+  }
+}
