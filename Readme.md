@@ -9,7 +9,7 @@ bower install angular-eve-linky --save
 ## Usage
 
 ```
-app = angular.module('app', ['angular-eve-linky']);
+app = angular.module('app', ['trichner.angular-eve-linky']);
 
 ...
 

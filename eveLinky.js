@@ -14,7 +14,7 @@
  * <url=showinfo:16159//937872513>Ivy League</url>
  * <url=showinfo:1377//698922015>Thomion</url>
  */
-angular.module('angular-eve-linky', [])
+angular.module('trichner.angular-eve-linky', [])
     .factory('EveLinky', function () {
         var TEMPLATES = {
             CORPORATION: "<url=showinfo:2//{id}>{name}</url>",
