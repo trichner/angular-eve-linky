@@ -15,7 +15,7 @@ app = angular.module('app', ['angular-eve-linky']);
 
 app.controller('MyController', function(EveLinky){
 
-    console.log('Linked character: ' +EveLinky.urlCharacter(1234,'CCP Derpalot'));
+    console.log('Linked character: ' + EveLinky.urlCharacter(1234,'CCP Derpalot'));
 
 });
 ```
